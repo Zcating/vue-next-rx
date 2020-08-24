@@ -1,7 +1,23 @@
 {
   "name": "vue-next-rx",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": false,
+  "description": "RxJS v6 intergration for Vue-next.",
+  "license": "MIT",
+  "keywords": [
+    "vue-next-rx",
+    "vue-rx",
+    "rx-vue",
+    "rxVue",
+    "VueRx"
+  ],
+
+  "files": [
+    "index.js",
+    "dist"
+  ],
+  "main": "dist/index.js",
+
   "scripts": {
     "build": "yarn build:esm && yarn build:cjs",
     "build:esm": "tsc -p ./tsconfig.json --module es2015 --target es5 --outDir dist/esm",
@@ -19,18 +35,6 @@
     "@types/jest": "^24.0.19",
     "ts-loader": "^8.0.2",
     "typescript": "~3.9.3",
-    "vue-jest": "^5.0.0-0",
-    "webpack-cli": "^3.3.12"
-  },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not dead"
-  ],
-  "jest": {
-    "preset": "@vue/cli-plugin-unit-jest/presets/typescript-and-babel",
-    "transform": {
-      "^.+\\.vue$": "vue-jest"
-    }
+    "vue-jest": "^5.0.0-0"
   }
 }
