@@ -1,4 +1,7 @@
 # Vue-Next-Rx
+![vue_support](https://img.shields.io/badge/Vue-3.0.0--rc-brightgreen) 
+![rxjs](https://img.shields.io/badge/RxJS-6.6.0-orange)
+
 RxJS v6 intergration for Vue-next, base on [Vue-Rx](https://github.com/vuejs/vue-rx) & [Rxjs-hook](https://github.com/LeetCode-OpenSource/rxjs-hooks).
 
 ## Installation
